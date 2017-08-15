@@ -32,13 +32,17 @@ _Puede_ tener equipos o proyectos específicos dentro de su organización que ac
 
 Por lo tanto, podría tener equipos que se comportan de acuerdo a los principios de DevOps, y se puede llamar un "equipo de DevOps" si sólo tiene uno. Pero es incorrecto pensar que DevOps es implementado por algún equipo dedicado a las “implementaciones de DevOps”. Es importante distinguir que “el equipo que maneja DevOps para nosotros", que no es lo mismo que "un equipo que se comporta de acuerdo con DevOps". Esa es una línea super-fina, tal vez, pero es una distinción importante. 
 
-## What DevOps _Isn't_
-Given that DevOps is a philosophy... a management approach... and the combination of multiple IT disciplines... it might be easier to quickly look at some of what it _isn't_.
+## Lo que no es DevOps
+Teniendo en cuenta que DevOps es una filosofía ... un enfoque de gestión ... y la combinación de múltiples disciplinas de TI ... podría ser más fácil ver rápidamente lo que no es.
 
-* DevOps is not Agile. That said, your teams might indeed use Agile as a development methodology within an overall DevOps-style approach. Agile is certainly DevOps-compatible, and, like DevOps, values short, continual improvement.
-* DevOps is not Continuous Integration. That said, CI is often a part of DevOps-style behavior. The two can be really closely related, in fact - so closely that it's hard to tell the difference. I suppose you could argue that it's difficult to practice the DevOps philosophy without using CI as an enabling implementation, but you can definitely have CI without behaving like a DevOps organization, so the two aren't exactly the same thing.
-* DevOps isn't "the developers running Operations." If anything, it's Operations automating things to the point where Operations runs itself in response to authorized actions taken by other roles, including developers.
-* DevOps isn't a software development methodology. See the first bullet, above. DevOps is what happens while software development is happening, and largely what happens when software development (or a cycle of it), is _done_. You still need to manage your software development - you just need to use a methodology that's DevOps-compatible. 
-* DevOps is not automation. However, you can't have DevOps without automation. Automation is perhaps the biggest thing that Operations brings to the DevOps table, in fact.
+* DevOps no es ágil. Dicho esto, sus equipos podrían utilizar Agile como una metodología de desarrollo dentro de un enfoque global de estilo DevOps. Agile es ciertamente compatible con DevOps, y, al igual que DevOps, valora la mejora continua.
 
-Further, it actually seems to be an unstated goal of many DevOps champions to _avoid_ the creation of any kind of trademarked, rigid, rulebook of "how to do DevOps," a la ITIL or TQM or something. _This_ book certainly doesn't attempt to provide "rules;" the goal here is to provide some understanding of what DevOps' broad goals are.
+* DevOps no es Integración Continua. Dicho esto, CI es a menudo una parte del comportamiento de estilo DevOps. Los dos pueden estar realmente estrechamente relacionados, de hecho - tan cerca que es difícil distinguir la diferencia. Supongo que podría argumentar que es difícil practicar la filosofía de DevOps sin usar CI, pero definitivamente puede tener CI sin comportarse como una organización de DevOps, por lo que los dos no son exactamente lo mismo.
+
+* DevOps no es "los desarrolladores que operan". En todo caso, las operaciones están automatizadas hasta el punto en que se ejecutan en respuesta a las acciones autorizadas tomadas por otros roles, incluidos los desarrolladores.
+
+* DevOps no es una metodología de desarrollo de software. Vea la primera viñeta, arriba. DevOps es lo que ocurre mientras el desarrollo del software está sucediendo, y en gran parte lo que sucede cuando se desarrolla el software (o un ciclo de él). Usted todavía necesitara administrar su proceso de desarrollo de software - solo necesita usar una metodología que sea compatible con DevOps.
+
+* DevOps no es automatización. Sin embargo, no puede tener DevOps sin automatización. La automatización es quizás el mayor beneficio que operaciones recibe de DevOps.
+
+Además, parece ser un objetivo no declarado evitar la creación de cualquier tipo de marca registrada DevOps, o del típico libro de reglas de "cómo hacer DevOps", a la ITIL o TQM o algo así. _Este libro_ ciertamente no intenta proveer "reglas". El objetivo aquí es proporcionar una cierta comprensión de lo que son los objetivos generales de DevOps..
