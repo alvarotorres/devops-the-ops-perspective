@@ -13,17 +13,21 @@ Este es el corazón de DevOps, y si esto hace que su corazón lata más fuerte, 
 
 * Operaciones cometió algunos errores simplemente porque _ellos no escribieron el código_, y los desarrolladores tenían poco incentivo para escribir código que fuera fácil de implementar, administrar o supervisar. Los desarrolladores simplemente lanzaron el código "al otro lado del muro" y Operaciones tuvo que lidiar con él - aumentando la tensión entre los departamentos.
 
+Todo esto conspiró para crear algo que es esencialmente la antítesis de DevOps. Los lanzamientos de software son más lentos, debido a la marcha implacable del código desde desarrollo hasta QA, para finalmente llegar a producción. Operaciones, básicamente, vive en el miedo de nuevo código, porque saben poco sobre él, y este no fue necesariamente diseñado para facilitar la operación. Lanzamientos más lentos significaron más presión para empaquetar más funciones en esos lanzamientos, por lo que cada lanzamiento se convirtió en un "triunfo", que simplemente empeoró el proceso.
 
-All of this conspired to create something that is essentially the antithesis of DevOps. Software releases are slower, because of the implacable march of code from development through to QA, through to production. Operations basically lives in fear of new code, because they know little about it, and it wasn't necessarily designed with ease-of-operating in mind. Slower releases meant more pressure to pack more features into those releases, so each release became a "win," which simply made the process even worse. 
+Por el contrario, DevOps prevé la aplicación y la prestación de servicios que empujan constantemente pequeñas actualizaciones incrementales a los usuarios, con un mínimo de sobrecarga operacional. Los lanzamientos más pequeños son más fáciles de codificar y probar, y con el enfoque correcto, más seguros para empujar hacia producción de forma continua. Pero para que todo eso suceda, todos tienen que trabajar juntos. La línea entre desarrollador y operaciones tiene que ser borrosa.
 
-DevOps, by contrast, envisions application and service delivery than constantly pushes small, incremental updates to users, with a minimum of operational overhead. Smaller releases are easier to code and test, and with the right approach, safer to push into production on an ongoing basis. But in order for all that to happen, everyone has to work together. The hard line between developer and operations has to become fuzzy. 
+En un entorno de DevOps, las cosas funcionan de manera diferente. Aquí está una mirada súper simplificada:
 
-In a DevOps environment, things work differently. Here's a super-simplified look:
-1. Developers code, and check their code into a repository.
-2. At some point, the repository's current code is pulled and built into an application.
-3. Tests - usually automated, and created by developers - are run, including individual models, integration tests, and even user acceptance tests.
-4. If the tests succeed, the build is deployed automatically into production (or at least into some deployment cycle).
-5. User feedback is collected, feeding the next iteration of the cycle. Return to step 1.
+1. Los desarrolladores codifican y comprueban su código en un repositorio.
+
+2. En algún momento, el código actual del repositorio se extrae y se incorpora a una aplicación.
+
+3. Las pruebas, generalmente automatizadas y creadas por los desarrolladores, se ejecutan, incluidos los modelos individuales, las pruebas de integración e incluso las pruebas de aceptación por parte de los usuarios.
+
+4. Si las pruebas tienen éxito, la generación se implementa automáticamente en producción (o al menos en algún ciclo de implementación).
+
+5. Se recopilan los comentarios de los usuarios, alimentando la siguiente iteración del ciclo. Vuelva al paso 1
 
 Parts of this can be extremely automated, and parts - like user acceptance - may still be done manually by human beings. The point is that you create as few barriers as possible between coder and user. That _does not mean_ there are no _checkpoints_ along the way - that's what testing is all about, after all - but you don't put one part of the IT team in charge of "stopping" another part "from doing something stupid." DevOps, as a philosophy, implicitly means that you trust your team. If you don't trust someone on your team, you have an HR problem, and you should educate them so that you _do_ trust them, or fire them and replace them with someone you _do_ trust. If your company "would never let a developer's code get into production without thirty other people approving it first," then _you can't do DevOps._ That's what I was writing earlier about management buy-in being the first step.
 
