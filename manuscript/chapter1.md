@@ -37,7 +37,7 @@ Teniendo en cuenta que DevOps es una filosofía ... un enfoque de gestión ... y
 
 * DevOps no es ágil. Dicho esto, sus equipos podrían utilizar Agile como una metodología de desarrollo dentro de un enfoque global de estilo DevOps. Agile es ciertamente compatible con DevOps, y, al igual que DevOps, valora la mejora continua.
 
-* DevOps no es Integración Continua. Dicho esto, CI es a menudo una parte del comportamiento de estilo DevOps. Los dos pueden estar realmente estrechamente relacionados, de hecho - tan cerca que es difícil distinguir la diferencia. Supongo que podría argumentar que es difícil practicar la filosofía de DevOps sin usar CI, pero definitivamente puede tener CI sin comportarse como una organización de DevOps, por lo que los dos no son exactamente lo mismo.
+* DevOps no es Integración Continua. Dicho esto, CI es a menudo una parte del comportamiento de estilo DevOps. Los dos pueden estar estrechamente relacionados, de hecho - tan cerca que es difícil distinguir la diferencia. Supongo que podría argumentar que es difícil practicar la filosofía de DevOps sin usar CI, pero definitivamente puede tener CI sin comportarse como una organización de DevOps, por lo que los dos no son exactamente lo mismo.
 
 * DevOps no es "los desarrolladores que operan". En todo caso, las operaciones están automatizadas hasta el punto en que se ejecutan en respuesta a las acciones autorizadas tomadas por otros roles, incluidos los desarrolladores.
 
