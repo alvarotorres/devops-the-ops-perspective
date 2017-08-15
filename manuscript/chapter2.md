@@ -33,6 +33,7 @@ Algunas partes de esto pueden ser extremadamente automatizadas, y partes - como 
 
 La idea detrás de DevOps es, como he notado, suavizar la trayectoria entre el codificador y el usuario, de modo que las pequeñas actualizaciones incrementales de la aplicación se puedan liberar más o menos todo el tiempo. Cuando se reciben comentarios de los usuarios, los codificadores responden y luego liberan más actualizaciones.
 
-Incidentally, [here's a really great explanation of what DevOps is](http://theagileadmin.com/what-is-devops/) - and what it isn't. It's a long article, but it's worth reading, and you'll notice how much management buy-in is needed for all of those things to work.
+Por cierto, [aquí está una gran explicación de lo que es DevOps](http://theagileadmin.com/what-is-devops/) - y lo que no es. Es un artículo largo, pero vale la pena leerlo, y notará cuánto se necesita la administración de buy-in para que todas esas cosas funcionen.
 
-So, _for the purposes of this book_, we need to look at some of the things needed to make step 4 happen, and a little bit about what's needed in step 3 as well. Again, we're going to focus mainly on processes and practices; you'll definitely need some technology to _implement_ those in real life, but the exact technologies you choose will depend on your specific environment, so we'll keep this a little more abstract for right now.
+Por lo tanto, para los propósitos de este libro, necesitamos ver algunas de las cosas necesarias para hacer que el paso 4 suceda, y un poco sobre lo que se necesita en el paso 3 también. Una vez más, nos centraremos principalmente en procesos y prácticas. Definitivamente _necesitará alguna tecnología para implementarlas en la vida real_, pero las tecnologías exactas que elija dependerán de su entorno específico, por lo que vamos a mantener esto un poco más abstracto por ahora.
+
