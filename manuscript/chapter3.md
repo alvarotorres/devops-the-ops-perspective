@@ -1,17 +1,18 @@
-# Operational Capabilities of a DevOps Environment
-So what are some of the broad capabilities you need to implement in a DevOps environment? 
+# Capacidades operacionales de un entorno DevOps
+¿Cuáles son algunas de las capacidades que necesita implementar en un entorno DevOps? 
 
-## Automated Environment Creation
-First, and possibly foremost, you need the ability to automatically and consistently spin up environments. That's a huge deal, and it isn't easy. 
+## Creación automatizada del entorno
+En primer lugar, y posiblemente, antes que cualquier otra cosa, necesita capacidad de alistar entornos automáticamente y constantemente. Es una tarea fundamental pero no es fácil.
 
-* Automatically: This means enabling a variety of _authorized roles_ within your organization to start environments on-demand, without involving any human beings. This might be a developer spinning up a development or test environment, which might be something they need to do several times a day. It might also be an automated process spinning up an environment in which to run acceptance tests.
-* Consistently: The environments that are spun up must accurately reflect the final production environment. There are two ways to do that:
-	* Come up with a method of creating environments, and use that to also create the production environment as well as whatever other environments are needed. That way, you know they all match.
-	* Come up with a method of _modeling_ the production environment, and then applying that model to whatever other environments you spin up.
+* Automáticamente: Significa permitir a una variedad de roles autorizados dentro de su organización configurar entornos bajo demanda, sin involucrar a ningún ser humano. Esto podría ser un entorno para desarrollo o un entorno de pruebas, y probablemente sea algo que necesitan hacer varias veces al día. También podría ser un proceso automatizado alistando un entorno en el que ejecutar pruebas de aceptación.
 
-Emerging configuration management technologies - such as Microsoft's Desired State Configuration, or products like Chef, Salt, Puppet, and Ansible - are examples of tools that help implement some of these capabilities. When you can write some kind of configuration document that describes the environment, and then have a tool that can implement that document wherever and whenever you want, then you're getting close to the necessary capability. Containerization is another enabling technology that can help in this space, since it helps abstract a number of environmental variables, reducing variation and complexity.
+* De manera consistente: Los entornos que se “crean” deben reflejar con precisión el entorno de producción final. Hay dos formas de hacerlo:
+- Definir un método de creación de entornos, y utilizarlo para crear el entorno de producción, así como cualquier otro entorno cuando sea necesario. De esa manera, sabrá que todos los entornos coinciden.
+- Otra forma es el método de modelar un entorno a partir del entorno de producción. A continuación, puede aplicar ese modelo a cualquier otro entorno que necesite alistar.
 
-It's easy to understand why this is such an important capability, though. If you can guarantee that everyplace an application might run - development, test, or production - is exactly the same, all the time, then you're much less likely to run into problems moving the code from environment to environment. And, by giving other roles - like developers - the ability to spin up these accurate environments on demand, you help facilitate more real-world testing, and eliminate more problems during the development phase.
+Tecnologías de gestión de configuración emergentes, como la DSC de Microsoft, o productos como Chef, Salt, Puppet y Ansible, son ejemplos de herramientas que ayudan a implementar algunas de estas capacidades. Cuando puede escribir algún tipo de documento de configuración que describe el entorno y, a continuación, tiene una herramienta que puede implementar ese documento donde y cuando quiera, se estará acercando a la capacidad necesaria. Los containers son otra tecnología que puede ayudar en este espacio, ya que le permite abstraerse de una serie de variables, reduciendo la transformación y complejidad.
+
+Es fácil entender por qué esta es una capacidad tan importante. Si puede garantizar que todo lo que una aplicación puede ejecutar (desarrollo, prueba o producción) es exactamente el mismo, todo el tiempo, entonces es mucho menos probable que tenga problemas para mover el código de un entorno a otro. Además, al ofrecer a otros roles, como los desarrolladores, la capacidad de generar estos entornos bajo demanda, ayuda a facilitar más pruebas en el mundo real y elimina más problemas durante la fase de desarrollo.
 
 I don't want to downplay the difficulty involved in actually creating this capability, nor do I want to dismiss the management concerns. Environments take resources to run, and so organizations can be justifiably concerned about having developers spin up virtual machines willy-nilly. But _we're not talking about unmanaged capability._ That's something that kills me every time I get into a discussion about DevOps with certain kinds of organizations. "Well, once we give developers permission to spin up whatever VMs they want, that's the end of the world!" and they throw up their hands in defeat. But that's not what we're talking about.
 
