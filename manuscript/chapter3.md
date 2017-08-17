@@ -8,7 +8,7 @@ En primer lugar, y posiblemente, antes que cualquier otra cosa, necesita capacid
 
 * De manera consistente: Los entornos que se “crean” deben reflejar con precisión el entorno de producción final. Hay dos formas de hacerlo:
   * Definir un método de creación de entornos, y utilizarlo para crear el entorno de producción, así como cualquier otro entorno cuando sea necesario. De esa manera, sabrá que todos los entornos coinciden.
-  * Otra forma es el método de modelar un entorno a partir del entorno de producción. A continuación, puede aplicar ese modelo a cualquier otro entorno que necesite alistar.
+  * Modelar un entorno a partir del entorno de producción. A continuación, puede aplicar ese modelo a cualquier otro entorno que necesite alistar.
 
 Tecnologías de gestión de configuración emergentes, como la DSC de Microsoft, o productos como Chef, Salt, Puppet y Ansible, son ejemplos de herramientas que ayudan a implementar algunas de estas capacidades. Cuando puede escribir algún tipo de documento de configuración que describe el entorno y, a continuación, tiene una herramienta que puede implementar ese documento donde y cuando quiera, se estará acercando a la capacidad necesaria. Los containers son otra tecnología que puede ayudar en este espacio, ya que le permite abstraerse de una serie de variables, reduciendo la transformación y complejidad.
 
