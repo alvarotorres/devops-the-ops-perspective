@@ -37,16 +37,17 @@ Como describí en el capítulo anterior, la administración de TI tradicional co
 
 * Herramientas de prueba. Una cierta cantidad de pruebas tiene que ser automatizada, para que los desarrolladores pueden obtener retroalimentación inmediata, y para que las pruebas se pueden ejecutar de la manera más coherente posible.
 
-That last capability is perhaps one of the most complex. In one ideal approach (although certainly not the only one, and even this will be a simplified example), the workflow might be something like this:
+Esa última capacidad es quizás una de las más complejas. En un enfoque ideal (aunque ciertamente no el único, e incluso este será un ejemplo simplificado), un flujo de trabajo podría ser algo como esto:
 
-1. Developer writes code.
-2. Developer runs code in a "private" development environment, performing unit tests.
-3. Developer repeats steps 1-2 until they're satisfied with the code, and then checks it into a repository.
-4. Repository runs certain quality checks - which might simply enforce things like coding conventions - before allowing check-in.
-5. If check-in succeeds, repository kicks off an automated build of the code. This is deployed to a newly-created test environment.
-6. Automated testing tools run a number of acceptance tests on the code. This might involve providing specific inputs to the application and then looking for specific outputs, "hacking" data into a database to test application response, or so on. Creating these tests is really a coding effort in and of itself, and it might be completed by the developer working on the code, or by a dedicated test coder.
-7. Test results are stored - often in a part of the source code repository. 
-8. If tests were successful, then the build is staged for deployment. Deployment might happen during a scheduled window following that build.
+1. El desarrollador escribe código.
+2. El desarrollador ejecuta código en un entorno de desarrollo "privado", realizando pruebas unitarias.
+3. El desarrollador repite los pasos 1-2 hasta que esté satisfecho con el código y, a continuación, lo verifica en un repositorio.
+4. El repositorio ejecuta ciertos controles de calidad, que podrían ser simplemente cosas como hacer cumplir las convenciones de codificación, antes de permitir el registro definitivo.
+5. Si el check-in tiene éxito, el repositorio arranca una compilación automatizada del código. Esto se implementa en un entorno de pruebas recién creado.
+6. Las herramientas de pruebas automatizadas ejecutan una serie de pruebas de aceptación en el código. Esto puede implicar proporcionar entradas específicas a la aplicación y luego buscar salidas específicas, "hackear" datos en una base de datos para probar la respuesta de la aplicación, etc. La creación de estas pruebas es realmente un esfuerzo de codificación en sí mismo, y puede ser completado por el desarrollador que trabaja en el código, o por un codificador de pruebas dedicado.
+7. Los resultados de las pruebas se almacenan - a menudo como una parte del repositorio de código fuente.
+8. Si las pruebas tuvieron éxito, la compilación se prepara para su implementación. La implementación puede ocurrir durante una ventana programada después de la compilación.
+
 
 You can see that the human labor here is almost all on developers, which is one reason people refer to DevOps as a "software development methodology." But the Ops piece provides all the infrastructure and automation from step 4 on, enabling a successful build to move directly to production.
 
