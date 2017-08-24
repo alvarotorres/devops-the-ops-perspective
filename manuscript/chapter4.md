@@ -17,11 +17,14 @@ Proporcionar la infraestructura operacional para una organización de DevOps pue
 
 Con eso en mente, ¿cuáles son las habilidades adecuadas que se deben tener?
 
+* Capacidad de aprender rápidamente. Tendrá que dominar nuevos productos y tecnologías sobre la marcha.
 
-* The ability to learn quickly. You'll have to master new products and technologies on the fly.
-* Creativity. You'll need to think of clever solutions to work around stumbling blocks. Don't expect everything to "just work" - it won't. 
-* Deep understanding of your platform(s). Whether you're working on Microsoft Windows, a Linux distribution, or some other platform, you need to know _deeply_ how it works, because you're going to be interacting with it in the sub-basement level.
-* Scripting. You're going to need to be _fluent_ in the leading systems programming ("scripting") language(s) used on your platform, because that's the "glue" you'll use to stick different technologies together into a cohesive, custom solution.
+* Creatividad. Tendrá que pensar en soluciones inteligentes para evitar obstáculos. No espere que todo "funcione" - no lo hará.
+
+* Conocimiento profundo de su plataforma(s). Ya sea que esté trabajando en Microsoft Windows, una distribución de Linux o alguna otra plataforma, necesita conocer profundamente cómo funciona, porque va a interactuar con ella a muy bajo nivel.
+
+* Scripting. Va a necesitar ser fluido en lenguajes de programación de sistemas ("scripting") usados en su plataforma, porque ese es el “pegamento” que usará para adherir diferentes tecnologías en una solución coherente y personalizada.
+
 
 This DevOps stuff is not for beginners, nor is it for the faint of heart. This is, in my own personal belief, why companies create job titles like "DevOps Engineer." Most of the DevOps community quite justifiably freaks out about job titles like that, because they're often a demonstration that _someone in the organization doesn't get it_. DevOps isn't a job role. However, in an organization practicing DevOps, there certainly are some skills that will come in handy, especially on the Operations side. Someone possessing those skills might justifiably be called a "DevOps Engineer," which is perhaps less cumbersome than "IT person who knows enough to make all these bits stick together so we can get the DevOps-enabling capabilities we need." That'd be a big business card. "DevOps Engineer" is probably also a title less demeaning to one's co-workers than "Cleverest IT Person We've Got," which is also usually the case.
 
