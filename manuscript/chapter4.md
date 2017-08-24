@@ -1,21 +1,22 @@
-# IT Ops Skills in a DevOps Environment
-So let's say you've decided, at least in theory, to help take your organization onto a DevOps standing. You've read about some of the high-level capabilities that you, as an Operations person, need to provide to the organization.
+# Habilidades IT Ops en un entorno de DevOps
+Digamos que ha decidido, al menos en teoría, ayudar a llevar a su organización a una posición de DevOps. Ha leído acerca de algunas de las capacidades de alto nivel que usted, como Operador, debe proporcionar a la organización.
 
-How do you do it?
+¿Cómo lo hace?
 
-In a word, "glue."
+En una palabra, "pegamento".
 
-I'll say it again: DevOps is a _philosophy_. Accounting remains a good example. The accounting industry agrees, more or less, on what constitutes good accounting, and that's where GAAP comes from. Similarly, the DevOps industry is slowly coalescing a feeling of what "good" DevOps "feels like."
+Lo diré de nuevo: _DevOps es una filosofía_. La contabilidad sigue siendo un buen ejemplo. La industria de la contabilidad está de acuerdo, más o menos, en lo que constituye una buena contabilidad, y de ahí es de donde provienen los PCGA. Del mismo modo, la industria de DevOps está definiendo lentamente de que se trata un “DevOps bueno”
 
-But every organization does it their own way. Look at how any one organization handles their accounting, in detail, and you'll see plenty of differences between other organizations. Perhaps auditors work a little differently, or perhaps a different job role is responsible for different accounting duties. Some companies need fairly simplistic accounting, whereas others need incredibly complex accounting that demands hundreds of people working around the clock. Although they're all operating on the same _principles_, their implementations vary widely.
+Pero cada organización lo hace a su manera. Observe cómo cada organización maneja su contabilidad, en detalle, y encontrará un montón de diferencias con otras organizaciones. Tal vez los auditores trabajen de formas diferentes, o tal vez un rol de trabajo diferente es responsable de diferentes funciones de contabilidad. Algunas empresas necesitan una contabilidad bastante simple, mientras que otros necesitan una contabilidad increíblemente compleja que exige cientos de personas que trabajan las veinticuatro horas del día. Aunque todos ellos operan con _los mismos principios_, sus implementaciones varían ampliamente.
 
-So it is with DevOps. 
+Así es con DevOps.
 
-In a small organization, accounting may be simple enough that off-the-shelf tools, like Quickbooks, are sufficient. In that size of an organization, DevOps might not even be a thing, because a company of that size might simply not be doing any "dev" to begin with. In a massive, multi-departmental enterprise, accounting might involve "off-the-shelf" tools that requires months and months of customization and tweaking. Similarly, DevOps in that same organization might involve customized tooling that uses generic building blocks... and a lot of custom glue.
+En una organización pequeña, la contabilidad puede ser lo suficientemente simple como para que las herramientas disponibles en el mercado, como Quickbooks, sean suficientes. En ese tamaño de una organización, DevOps ni siquiera podría existir, porque una empresa de ese tamaño simplemente podría no hacer ningún "dev" para empezar. En una empresa masiva y multidepartamental, la contabilidad podría incluir herramientas "disponibles" que requieren meses y meses de personalización y ajustes. Del mismo modo, DevOps en esa misma organización podría implicar herramientas personalizadas que utilizan bloques genéricos de construcción ... y un montón de pegamento personalizado.
 
-Providing the operational infrastructure for a DevOps organization can be hacking at its finest. Yes, you'll find plenty of off-the-shelf technologies and products... but many of them will only get you to a certain point in your organization's goals. After that, it'll be a bit of customizing, a bit of "gluing" different tools together, and a bit of hacking around the rough edges. That will probably _always_ be the case, just as it's still the case that large new deployments of accounting tools _always_ take months and months. Nothing off-the-shelf can possibly fit every organization's needs, so you'll simply have to be prepared to do some customizing. Some hacking. Some gluing.
+Proporcionar la infraestructura operacional para una organización de DevOps puede ser hacking en su mejor momento. Sí, usted encontrará un montón de productos y tecnologías disponibles en el mercado ... pero muchos de ellos sólo le llevarán hasta cierto punto en las metas de su organización. Después de eso, tendrá que hacer mucho de personalización, y poco de "pegado" de herramientas diferentes clases, además de algo de “hacking” alrededor para juntar las piezas. Probablemente siempre será así, así como todavía es el caso de nuevos despliegues de herramientas de contabilidad que por lo general toman meses y meses. Nada fuera de una plataforma podrá cubrir todas las necesidades de cada organización, por lo que simplemente tendrá que estar preparado para hacer algo de personalización, algo de hacking y un poco de pegado.
 
-With that in mind, what are the right skills to have?
+Con eso en mente, ¿cuáles son las habilidades adecuadas que se deben tener?
+
 
 * The ability to learn quickly. You'll have to master new products and technologies on the fly.
 * Creativity. You'll need to think of clever solutions to work around stumbling blocks. Don't expect everything to "just work" - it won't. 
