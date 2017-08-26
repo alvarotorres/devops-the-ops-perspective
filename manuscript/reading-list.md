@@ -1,4 +1,4 @@
-# Una lista de lectura de DevOps
+# Una lista de lectura DevOps
 Muchas gracias a Chris Hunt (@cdhunt en Twitter) por proporcionar esta lista de lecturas sugeridas.
 
 *The Phoenix Project* by Gene Kim  
