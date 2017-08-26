@@ -1,5 +1,5 @@
-# A DevOps Reading List
-Many thanks to Chris Hunt (@cdhunt on Twitter) for providing this suggested reading list.
+# Una lista de lectura de DevOps
+Muchas gracias a Chris Hunt (@cdhunt en Twitter) por proporcionar esta lista de lecturas sugeridas.
 
 *The Phoenix Project* by Gene Kim  
 *The Goal* by Eliyahu M. Goldratt  
