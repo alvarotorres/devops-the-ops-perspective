@@ -1,4 +1,4 @@
-## DevOps no excluye a nadie
+# DevOps no excluye a nadie
 
 Porque ... bueno, porque se llama Dev Ops, aunque a menudo existe esta sensación de que la filosofía excluye la seguridad ... o la infraestructura de red ... o los diseñadores gráficos ... o alguien.
 
